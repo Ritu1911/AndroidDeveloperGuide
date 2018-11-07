@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kammo.alokrabi.be_a_android_developer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.kammo.alokrabi.be_a_android_developer.BroadcastReciever.AlermReceiver" />
+
+        <service android:name="com.kammo.alokrabi.be_a_android_developer.FirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.kammo.alokrabi.be_a_android_developer.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.VideoPlayer" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.Create_new_app" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.Run_your_app" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.NoInternet" />
+        <activity
+            android:name="com.kammo.alokrabi.be_a_android_developer.YouTubeVideoPla"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|uiMode" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.Buid_simple_UI" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.StartAnotherAct" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.Supporting_Differ_Dev" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.LangAndCult" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.DiffScreens" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.DiffPlat" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.DynamikUI" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.CreatingFragment" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.FlexibleUI" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.ComOtherFrags" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.InteractOtherApps" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.SendingToAnotherApp" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.GettingResult" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.AllowingOtherApps" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.WorrkingWithSytemPermission" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.DeclaringPermission" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.RequestPermission" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.UsageNotes" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.SavingKeyValueSets" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.SavingFiles" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.SavingData" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.DefiningDataUsingEntities" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.AcessingData" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.MigratingRoomDatabase" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.TestingRoomDatabase" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.ReferencingComplexData" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.SavingDataSQlite" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.SharingSimpleData" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.ReceivingSimpleData" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.AddingEasyShrAct" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.SettingUpFileSharing" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.SharingFile" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.RequestingSharedFile" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.RetrievingFileInfo" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.SharingFilesWithNFC" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.SendingFilesAnotherDevice" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.ReceivingFilesAnotherDevice" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.SharingFiles_grp" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.CapturingPhotos" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.TakingPhotosSimply" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.RecordingVideosSimply" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.ControllingTheCamera" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.PrintingContent" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.PhotosAct" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.HTMLdocuments" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.CustomDocuments" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.AppFundamentals" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.ProvidingResources" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.AccessingResources" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.HandlingRuntimeChanges" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.Localization" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.InterAndroid" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.LanguageLocale" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.ComplexXMLResources" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.ResourceTypes" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.AppManifestFile" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.SampleCodes" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.PermissionsOverview" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.RequestAppPermissions" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.BestPractices" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.CustomPermissions" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.IntroductionActivities" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.ActivityLifecycle" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.ActivityStateChanges" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.TasksBackStack" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.Processes_and_AppLifecycle" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.Parcelables_and_Bundles" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.Loaders" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.RecentsScreen" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.Multi_WindowSupport" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.AppShortcuts" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.AppWidgets" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.AppWidgetsHost" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.HandlingAppLinks" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.EnablingLinks" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.VerifyAppLinks" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.CreateAppLinks" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.IntentFilters" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.CommonIntents" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.ReportAPrb" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.FindYourSol" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.AskYourPrb" />
+        <activity android:name="com.kammo.alokrabi.be_a_android_developer.PrivacyPolicy"></activity>
+    </application>
+
+</manifest>

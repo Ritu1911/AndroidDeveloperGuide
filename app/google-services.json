@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "project_number": "359758547600",
+    "firebase_url": "https://android-developer-70072.firebaseio.com",
+    "project_id": "android-developer-70072",
+    "storage_bucket": "android-developer-70072.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359758547600:android:8ada836a42e6e0ef",
+        "android_client_info": {
+          "package_name": "blood_chain.kammo.alokrabi_androhub.com.bloodchain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359758547600-nrcos598bsgpjo76859ntq3gnf7358tc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "blood_chain.kammo.alokrabi_androhub.com.bloodchain",
+            "certificate_hash": "0027cf0a141cca80c46d37a5576845e0f0c7b679"
+          }
+        },
+        {
+          "client_id": "359758547600-3v960pb9oj541606h5n5sih20ip40inj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaf38xw1f9G_VeyzD3K9Gj_Suf76oarGU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359758547600-3v960pb9oj541606h5n5sih20ip40inj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359758547600:android:28124b3602463ace",
+        "android_client_info": {
+          "package_name": "com.kammo.alokrabi.androiddeveloper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359758547600-06velmkijfrbv61b3p1a6e5s7akut58v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kammo.alokrabi.androiddeveloper",
+            "certificate_hash": "262da44a627042041e65ad1fad33a858ef9fed3c"
+          }
+        },
+        {
+          "client_id": "359758547600-3v960pb9oj541606h5n5sih20ip40inj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaf38xw1f9G_VeyzD3K9Gj_Suf76oarGU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359758547600-3v960pb9oj541606h5n5sih20ip40inj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-4724351043619149~5530349239"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359758547600:android:702d21a4ccf50823",
+        "android_client_info": {
+          "package_name": "com.kammo.alokrabi.be_a_android_developer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359758547600-s9huj9iju61iqkfjhvgmcsc7852cqos8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kammo.alokrabi.be_a_android_developer",
+            "certificate_hash": "0027cf0a141cca80c46d37a5576845e0f0c7b679"
+          }
+        },
+        {
+          "client_id": "359758547600-3v960pb9oj541606h5n5sih20ip40inj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaf38xw1f9G_VeyzD3K9Gj_Suf76oarGU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359758547600-3v960pb9oj541606h5n5sih20ip40inj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
